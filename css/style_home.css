@@ -1,0 +1,106 @@
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    background-color: #343B49;
+}
+
+header{
+    justify-content: center;
+    letter-spacing: 30pt;
+    margin-bottom: 104px;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #EDDCB6;
+    
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+
+main{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    
+}
+
+.information.box{
+    justify-content: center;
+}
+
+.box{
+    align-content: center;
+    text-align: center;
+    gap: 16px; 
+}
+
+.image{
+    padding-bottom: 16px;
+}
+
+.box {
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+    transform: scaleY(1.009);
+    cursor: pointer;
+}
+
+hr{
+    margin: 0px 150px 0px 150px;
+}
+
+footer{
+    background-color: #6B6B6B !important; 
+    padding: 168px 48px 168px 48px;
+    margin-top: 176px;
+}
+
+.information.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 656px;
+}
+
+.contact{
+    text-align: left;
+    gap: 48px;
+}
+
+.correo{
+    font-weight: 300 ;
+    font-size: 36px;
+}
+
+.number{
+    font-weight: 300 ;
+    font-size: 36px;
+    margin-top: 24px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    align-items: center;
+}
+
+.instagram{
+    width: 36px;
+    color: #EDDCB6;
+}
+
+@media only screen and (max-width: 414px){
+    /* Aquí van todos los estilos CSS */
+  }
